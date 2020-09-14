@@ -1,0 +1,42 @@
+/* variables */
+
+:root {
+  --brand-color: #3CDBC0;
+  --menu-text: #4a4a4a;
+  --title-text: #fff;
+}
+
+
+/* reset styles */
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+
+/* main styles */
+
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem; /* necesario ? */
+}
+
+/* header */
+
+
+/* main content */
+
+
+
+/* media queries: tablet and desktop styles */
