@@ -40,6 +40,9 @@ body {
   left: 0;
   width: 100%;
   background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* vertically centered */
 }
 
 
@@ -51,8 +54,17 @@ body {
   display: flex;
   justify-content: center; /* horizontally centered */
   align-items: center; /* vertically centered */
+  text-align: center; /* vertically centered title blocks */
 }
 
+.title {
+  color: var(--white-color);
+}
+
+.title-block{
+  display: block;
+  margin: 5px 0;
+}
 
 
 /* media queries: tablet and desktop styles */
