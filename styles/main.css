@@ -1,4 +1,4 @@
-/* variables */
+/********* variables *********/
 
 :root {
   --brand-color: #3CDBC0;
@@ -7,7 +7,7 @@
 }
 
 
-/* reset styles */
+/********* reset styles *********/
 
 * {
   box-sizing: border-box;
@@ -24,7 +24,7 @@ a {
 }
 
 
-/* main styles */
+/******** main styles *********/
 
 body {
   margin: 0;
@@ -45,6 +45,36 @@ body {
   align-items: center; /* vertically centered */
 }
 
+/* responsive logo container */
+
+.logo-container {
+  max-width: 155px;
+  margin: 10px auto;
+}
+
+.logo {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  /* width: 40%; */
+}
+
+.menu-list {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin-bottom: 13px;
+  /* width: 50%; */
+  background-color: red;
+  text-transform: uppercase; 
+}
+
+.menu-item {
+  padding-right: 13px;
+}
 
 /* main content */
 
@@ -59,6 +89,7 @@ body {
 
 .title {
   color: var(--white-color);
+  font-size:  1.875rem;
 }
 
 .title-block{
@@ -67,4 +98,4 @@ body {
 }
 
 
-/* media queries: tablet and desktop styles */
+/******* media queries: tablet and desktop styles *******/
