@@ -3,7 +3,7 @@
 :root {
   --brand-color: #3CDBC0;
   --menu-text: #4a4a4a;
-  --title-text: #fff;
+  --white-color: #fff;
 }
 
 
@@ -34,8 +34,24 @@ body {
 
 /* header */
 
+.header {
+  position: fixed; /* fixed header at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--white-color);
+}
+
 
 /* main content */
+
+.main {
+  height: 100vh; 
+  background-color: var(--brand-color);
+  display: flex;
+  justify-content: center; /* horizontally centered */
+  align-items: center; /* vertically centered */
+}
 
 
 
