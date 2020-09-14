@@ -28,7 +28,7 @@ a {
 body {
   margin: 0;
   font-family: "Rubik", sans-serif;
-  font-size: 1rem; /* necesario ? */
+  font-size: 1rem;
 }
 
 /* header */
@@ -61,7 +61,6 @@ body {
 
 .menu-list {
   display: flex;
-  justify-content: center;
   margin-bottom: 13px;
   text-transform: uppercase;
 }
@@ -98,13 +97,12 @@ body {
   margin: 5px 0;
 }
 
-
 /******* media queries: tablet and desktop styles *******/
 
 @media all and (min-width: 768px) {
   .header {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between; /* push items to the sides */
     align-items: center; /* vertically centered */
   }
 
