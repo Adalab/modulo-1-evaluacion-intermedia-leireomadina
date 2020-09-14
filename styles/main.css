@@ -16,6 +16,7 @@
 ul {
   padding: 0;
   list-style-type: none;
+  margin: 0;
 }
 
 a {
@@ -60,6 +61,7 @@ body {
 
 .menu {
   /* width: 40%; */
+
 }
 
 .menu-list {
@@ -68,13 +70,20 @@ body {
   justify-content: center;
   margin-bottom: 13px;
   /* width: 50%; */
-  background-color: red;
+  /* background-color: red; */
   text-transform: uppercase; 
 }
 
 .menu-item {
   padding-right: 13px;
 }
+
+.link {
+  padding: 15px 0px; /* bigger clickable space for better UX*/
+  /* background-color: red; */
+  cursor: pointer;
+}
+
 
 /* main content */
 
