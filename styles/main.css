@@ -1,4 +1,4 @@
-/********* variables *********/
+/********* variables declaration *********/
 
 :root {
   --brand-color: #3cdbc0;
@@ -57,6 +57,8 @@ body {
   height: 100%;
 }
 
+/* menu */
+
 .menu-list {
   display: flex;
   justify-content: center;
@@ -83,6 +85,8 @@ body {
   align-items: center; /* vertically centered */
   text-align: center; /* vertically centered title blocks */
 }
+
+/* title */
 
 .title {
   color: var(--white-color);
