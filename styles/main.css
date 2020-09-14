@@ -1,11 +1,10 @@
 /********* variables *********/
 
 :root {
-  --brand-color: #3CDBC0;
+  --brand-color: #3cdbc0;
   --menu-text: #4a4a4a;
   --white-color: #fff;
 }
-
 
 /********* reset styles *********/
 
@@ -24,12 +23,11 @@ a {
   color: initial;
 }
 
-
 /******** main styles *********/
 
 body {
   margin: 0;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 1rem; /* necesario ? */
 }
 
@@ -59,19 +57,11 @@ body {
   height: 100%;
 }
 
-.menu {
-  /* width: 40%; */
-
-}
-
 .menu-list {
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   margin-bottom: 13px;
-  /* width: 50%; */
-  /* background-color: red; */
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
 
 .menu-item {
@@ -80,15 +70,13 @@ body {
 
 .link {
   padding: 15px 0px; /* bigger clickable space for better UX*/
-  /* background-color: red; */
   cursor: pointer;
 }
-
 
 /* main content */
 
 .main {
-  height: 100vh; 
+  height: 100vh;
   background-color: var(--brand-color);
   display: flex;
   justify-content: center; /* horizontally centered */
@@ -98,13 +86,38 @@ body {
 
 .title {
   color: var(--white-color);
-  font-size:  1.875rem;
+  font-size: 1.875rem;
 }
 
-.title-block{
+.title-block {
   display: block;
   margin: 5px 0;
 }
 
 
 /******* media queries: tablet and desktop styles *******/
+
+@media all and (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; /* vertically centered */
+  }
+
+  .logo-container {
+    margin: 20px 30px;
+  }
+
+  .menu-list {
+    padding-right: 30px;
+    margin-bottom: 0;
+  }
+
+  .menu-item {
+    padding-right: 20px;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+}
