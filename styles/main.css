@@ -65,13 +65,10 @@ body {
   text-transform: uppercase;
 }
 
-.menu-item {
-  padding-right: 13px;
-}
-
 .link {
-  padding: 15px 0px; /* bigger clickable space for better UX*/
+  padding: 10px 10px 13px 10px; /* biger clickable space for UX reasons */
   cursor: pointer;
+  color: var(--menu-text);
 }
 
 /* main content */
@@ -95,11 +92,13 @@ body {
 .title-block {
   display: block;
   margin: 5px 0;
+  text-transform: capitalize;
 }
 
 /******* media queries: tablet and desktop styles *******/
 
 @media all and (min-width: 768px) {
+  /* header styles */
   .header {
     flex-direction: row;
     justify-content: space-between; /* push items to the sides */
@@ -111,14 +110,10 @@ body {
   }
 
   .menu-list {
-    padding-right: 30px;
     margin-bottom: 0;
-  }
-
-  .menu-item {
     padding-right: 20px;
   }
-
+  /* main content styles */
   .title {
     font-size: 2.5rem;
   }
